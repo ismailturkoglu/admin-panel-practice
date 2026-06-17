@@ -2,6 +2,16 @@
 
 :root {
   --logo: #45cda7;
+  --gray: #66757f;
+  --black: #292f33;
+  --navy: #093c5d;
+  --ocean-blue: #3b7597;
+  --aqua: #6fd1d7;
+
+  --sky-blue: #39b1d1;
+  --lime: #d6fb61;
+  --orange: #f6850c;
+  --red: #de3e3e;
 }
 
 * {
@@ -27,6 +37,10 @@ img {
   background-color: var(--logo);
 }
 
+.sign {
+  color: var(--logo);
+}
+
 /* Common */
 
 /* header */
@@ -40,5 +54,33 @@ img {
   height: auto;
 }
 
+/* footer */
+footer .footer-main {
+  color: var(--aqua);
+}
+
 /* Pages */
 /* index.html */
+
+.summary h4 {
+  color: var(--ocean-blue);
+}
+
+.summary h4 + div {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.summary .card.sale {
+  border-left: 0.3rem solid var(--sky-blue);
+}
+.summary .card.order {
+  border-left: 0.3rem solid var(--lime);
+}
+.summary .card.product {
+  border-left: 0.3rem solid var(--orange);
+}
+.summary .card.message {
+  border-left: 0.3rem solid var(--red);
+}
