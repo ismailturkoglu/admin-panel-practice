@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Product</title>
+    <title>Add Slider</title>
 
     <!-- Google Fonts ("Roboto", "Open Sans") -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,10 +48,10 @@
                             <a href="category.html" class="nav-link">Category</a>
                         </li>
                         <li class="nav-item">
-                            <a href="product.html" class="nav-link active">Product</a>
+                            <a href="product.html" class="nav-link">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a href="slider.html" class="nav-link">Slider</a>
+                            <a href="slider.html" class="nav-link active">Slider</a>
                         </li>
                         <li class="nav-item">
                             <a href="role.html" class="nav-link">Role</a>
@@ -87,59 +87,55 @@
 
     <main class="flex-grow-1">
 
-        <!-- add-category -->
-        <section class="add-category">
+        <!-- add-slider -->
+        <section class="add-slider">
             <div class="container">
                 <div class="row py-3 my-3 gy-3">
-                    <div class="col-sm-8">
+                    <div class="col-sm-12">
                         <div class="card shadow">
                             <div class="card-header d-flex justify-content-between align-items-center">
-                                <h5>Add Product</h5>
-                                <a href="product.html" class="btn btn-primary btn-sm">
+                                <h5>Add Slider</h5>
+                                <a href="slider.html" class="btn btn-primary btn-sm">
                                     <i class="fa-solid fa-list"></i>
                                 </a>
                             </div>
                             <div class="card-body">
                                 <form>
-                                    <div class="row mb-3">
-                                        <label for="product-name" class="col-md-4 col-form-label">Product Name</label>
+                                    <div class="row mb-3 align-items-center">
+                                        <label for="" class="col-md-4 col-form-label">Current
+                                            Picture</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="product-name" class="form-control">
+                                            <img src="../img/slider-1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="row mb-3">
-                                        <label for="explanation" class="col-md-4 col-form-label">Explanation</label>
+                                        <label for="title" class="col-md-4 col-form-label">Title</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="title" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="explanation" class="col-md-4">Explanation</label>
                                         <div class="col-md-8">
                                             <textarea name="" id="explanation" rows="3" class="form-control"></textarea>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
-                                        <label for="price" class="col-md-4">Price</label>
+                                        <label for="image" class="col-md-4">Image</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="price" class="form-control">
+                                            <input type="file" id="image" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="index" class="col-md-4">Index</label>
+                                        <div class="col-md-8">
+                                            <input type="number" id="index" class="form-control">
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <label for="active" class="col-md-4">Active</label>
                                         <div class="col-md-8">
                                             <input type="checkbox" id="active" class="form-check-input">
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <label for="homepage" class="col-md-4">Homepage</label>
-                                        <div class="col-md-8">
-                                            <input type="checkbox" id="homepage" class="form-check-input">
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <label for="category" class="col-md-4 col-form-label">Category</label>
-                                        <div class="col-md-8">
-                                            <select id="category" class="form-select">
-                                                <option value="" selected>Choose</option>
-                                                <option value="1">Ipad</option>
-                                                <option value="2">Phone</option>
-                                                <option value="3">Tv</option>
-                                            </select>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
@@ -150,14 +146,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 p-5 p-sm-0">
-                        <div class="card shadow p-2">
-                            <div class="card-body">
-                                <img src="../img/3.avif" alt="" class="border rounded">
-                                <input type="file" class="form-control mt-3">
                             </div>
                         </div>
                     </div>

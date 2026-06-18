@@ -84,3 +84,8 @@ footer .footer-main {
 .summary .card.message {
   border-left: 0.3rem solid var(--red);
 }
+
+/* slider.html */
+.slider img {
+  padding: 0.5rem;
+}
