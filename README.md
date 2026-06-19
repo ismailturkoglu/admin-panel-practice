@@ -24,22 +24,6 @@ https://ismailturkoglu.github.io/admin-panel-practice/
 - Bootstrap 5
 - JavaScript
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/ismailturkoglu/admin-panel-practice.git
-```
-
-Go to the project directory:
-
-```bash
-cd admin-panel-practice
-```
-
-Open `index.html` in your browser.
-
 ## Purpose
 
 This project was built to improve skills in:
