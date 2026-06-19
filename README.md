@@ -4,9 +4,7 @@ A responsive admin panel interface built with HTML5, CSS3, Bootstrap 5, and Java
 
 ## Live Demo
 
-Project: https://ismailturkoglu.github.io/admin-panel-practice/
-
-Repository: https://github.com/ismailturkoglu/admin-panel-practice
+https://ismailturkoglu.github.io/admin-panel-practice/
 
 ## Features
 
