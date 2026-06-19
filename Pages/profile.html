@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Profile</title>
 
     <!-- Google Fonts ("Roboto", "Open Sans") -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +65,7 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ismail
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Ismail
                                 Turkoglu
                             </a>
                             <ul class="dropdown-menu">
@@ -74,7 +74,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Login</a>
+                            <a href="login.html" class="nav-link">Login</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Sign Up</a>
@@ -87,38 +87,66 @@
 
     <main class="flex-grow-1">
 
-        <!-- login -->
-        <section class="login py-3 my-3">
+        <!-- profile -->
+        <section class="profile py-3 my-3">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-md-3 p-5 p-md-0">
+                        <div class="card shadow p-5 p-md-0">
+                            <div class="card-body">
+                                <img src="../img/user.png" alt="" class="border rounded">
+                                <input type="file" class="form-control mt-3">
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6">
-                        <div class="card shadow">
+                        <div class="card shadow mb-3">
                             <div class="card-header">
                                 <h5>Login</h5>
                             </div>
                             <div class="card-body">
-                                <div class="alert alert-danger">
-                                    <i class="fa-solid fa-circle-exclamation"></i>
-                                    <span>The email or password is incorrect.</span>
-                                </div>
                                 <form>
+                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username</label>
+                                        <input type="text" name="" id="username" class="form-control" disabled>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="name-surname" class="form-label">Name Surname</label>
+                                        <input type="text" name="" id="name-surname" class="form-control">
+                                    </div>
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
                                         <input type="email" name="" id="email" class="form-control">
                                     </div>
+
+                                    <div class="mb-3 mt-4">
+                                        <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card shadow mb-3">
+                            <div class="card-header">
+                                <h5>Update Password</h5>
+                            </div>
+                            <div class="card-body">
+                                <form>
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Password</label>
                                         <input type="password" name="" id="password" class="form-control">
                                     </div>
+                                    <div class="mb-3">
+                                        <label for="password-repeat" class="form-label">Password Again</label>
+                                        <input type="password" name="" id="password-repeat" class="form-control">
+                                    </div>
                                     <div class="mb-3 mt-4">
-                                        <button type="submit" class="btn btn-primary">Login</button>
+                                        <button type="submit" class="btn btn-primary">Save</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
