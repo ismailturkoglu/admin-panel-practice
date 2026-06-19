@@ -89,3 +89,9 @@ footer .footer-main {
 .summary .card.message {
   border-left: 0.3rem solid var(--red);
 }
+
+@media (max-width: 576px) {
+  * {
+    font-size: 0.8rem;
+  }
+}
